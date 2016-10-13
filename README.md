@@ -1,5 +1,7 @@
 # Checkout Form
 
+https://joebanks10.github.io/udacity-checkout-form/
+
 My solution for the checkout form [quiz](https://www.youtube.com/watch?v=R2rWAO4fqow) from Udacity's course: [Building High Conversion Forms](https://www.udacity.com/course/building-high-conversion-web-forms--ud890). I'm taking this course as part of the [Senior Web Developer Nanodegree](https://www.udacity.com/course/senior-web-developer-nanodegree-by-google--nd802).
 
 I used the following resources:
@@ -19,6 +21,7 @@ The goal was to make a fast and efficient checkout form. Here are a few things I
 
 Areas to improve on:
 
+- Scroll page when user unchecks 'Same as shiping' checkbox
 - Recognize the type of credit card being entered
 - Allow the user to search for an address instead of typing the address across multiple fields
 - If user is registered, ask to save addresses and payment info
