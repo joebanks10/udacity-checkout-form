@@ -98,7 +98,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-4 col-form-label" for="pay-number">Card number</label>
                                 <div class="col-sm-8">
-                                    <input id="pay-number" name="pay_number" type="number" class="form-control" required autocomplete placeholder="●●●●●●●●●●●●●●●●">
+                                    <input id="pay-number" name="pay_number" type="text" pattern="^\d+$" class="form-control" required autocomplete placeholder="●●●●●●●●●●●●●●●●">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -177,7 +177,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-4 col-form-label" for="billing-address-line-1">Address line 1</label>
                                 <div class="col-sm-8">
-                                    <input id="billing-address-line-1" name="billing_address_line_1" type="text" class="form-control" required autocomplete>
+                                    <input id="billing-address-line-1" name="billing_address_line_1" type="text" class="form-control" autocomplete>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -189,25 +189,25 @@
                             <div class="form-group row">
                                 <label class="col-sm-4 col-form-label" for="billing-city">City</label>
                                 <div class="col-sm-8">
-                                    <input id="billing-city" name="billing_city" type="text" class="form-control" required autocomplete>
+                                    <input id="billing-city" name="billing_city" type="text" class="form-control" autocomplete>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-4 col-form-label" for="billing-state">State/Province</label>
                                 <div class="col-sm-8">
-                                    <input id="billing-state" name="billing_state" type="text" class="form-control" required autocomplete>
+                                    <input id="billing-state" name="billing_state" type="text" class="form-control" autocomplete>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-4 col-form-label" for="billing-postal-code">Postal code</label>
                                 <div class="col-sm-8">
-                                    <input id="billing-postal-code" name="billing_postal_code" type="text" class="form-control" required autocomplete>
+                                    <input id="billing-postal-code" name="billing_postal_code" type="text" class="form-control" autocomplete>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-sm-4 col-form-label" for="billing-country">Country</label>
                                 <div class="col-sm-8">
-                                    <input id="billing-country" name="billing_country" type="text" class="form-control" required autocomplete>
+                                    <input id="billing-country" name="billing_country" type="text" class="form-control" autocomplete>
                                 </div>
                             </div>
                         </div>

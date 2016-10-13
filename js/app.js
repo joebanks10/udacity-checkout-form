@@ -1,9 +1,11 @@
 (function($){
 
-    var $billing = $('.billing');
+    var $billing = $('.billing'),
+        $requiredInputs = $('input', $billing).not('#billing-address-line-2');
 
     $('#pay-address').change(function() {
         $billing.toggleClass('billing-show');
+        $requiredInputs.prop('required', !$requiredInputs.prop('required'));
     });
 
 })(jQuery);
