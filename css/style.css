@@ -5,8 +5,11 @@ img {
 
 .main {
     padding-top: 20px;
-    padding-bottom: 40px;
     max-width: 720px;
+}
+
+.content, .sidebar {
+    margin-bottom: 40px;
 }
 
 section {
