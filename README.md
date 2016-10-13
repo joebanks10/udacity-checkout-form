@@ -21,7 +21,7 @@ The goal was to make a fast and efficient checkout form. Here are a few things I
 
 Areas to improve on:
 
-- Scroll page when user unchecks 'Same as shiping' checkbox
+- Scroll page when user unchecks 'Same as shipping' checkbox
 - Recognize the type of credit card being entered
 - Allow the user to search for an address instead of typing the address across multiple fields
 - If user is registered, ask to save addresses and payment info
